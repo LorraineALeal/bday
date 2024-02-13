@@ -24,11 +24,12 @@
   }
 
   .cake {
-    position: absolute; /* or absolute, fixed, etc. depending on your layout needs */
-    margin-top: 50;
-    margin-bottom: 50;
-    top: -15%; /* adjust this value to move the image vertically */
-    left: 37.5%; /* adjust this value to move the image horizontally */
+    position: absolute;
+    top: 5%; /* adjust this value for vertical positioning */
+    left: 50%; /* adjust this value for horizontal positioning */
+    transform: translate(-50%, 0); /* to center horizontally */
+    width: 30%; /* adjust the width as needed */
+    max-width: 300px; /* set a maximum width */
 }
 
 
